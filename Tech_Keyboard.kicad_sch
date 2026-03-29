@@ -5,6 +5,412 @@
 	(uuid "2037aab1-b447-4dbe-8882-7bcff54734c8")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:RotaryEncoder_Switch_MP"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch_MP"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_MP_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "MP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ScottoKeebs:MCU_Arduino_Pro_Micro"
 			(pin_names
 				(offset 1.016)
@@ -2238,9 +2644,9 @@
 			)
 		)
 	)
-	(global_label "Row 1"
+	(global_label "Row 2"
 		(shape input)
-		(at 43.18 99.06 180)
+		(at 45.72 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2248,9 +2654,9 @@
 			)
 			(justify right)
 		)
-		(uuid "0fb7e43b-4b2c-4d2b-a670-4bde065f1181")
+		(uuid "0b8db062-a25a-4b4b-9960-6dcddeef8f59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.2682 99.06 0)
+			(at 36.8082 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2282,75 +2688,9 @@
 			)
 		)
 	)
-	(global_label "Row 4"
-		(shape input)
-		(at 73.66 104.14 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "19f84723-2a92-487d-b0c1-ec255de9de11")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.5718 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 0"
-		(shape input)
-		(at 43.18 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "243631ff-7c16-4fe8-9190-a0cab25ac0fd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.2682 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Row 2"
-		(shape input)
-		(at 43.18 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "27fb377b-243d-43c6-ac4e-48529d87b55f")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.2682 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row 3"
 		(shape input)
-		(at 43.18 104.14 180)
+		(at 45.72 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2358,53 +2698,9 @@
 			)
 			(justify right)
 		)
-		(uuid "303d02dc-0924-41bf-949a-b2c24437458c")
+		(uuid "3ef07d8e-7b11-43db-8a4c-45826fd54d3b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 34.2682 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Column 1"
-		(shape input)
-		(at 43.18 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "474bac8f-3369-465c-a4d1-32d5b324020c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.9422 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Column 2"
-		(shape input)
-		(at 43.18 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4f427df6-d885-41a9-b82c-1fd75deac23b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.9422 91.44 0)
+			(at 36.8082 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2436,6 +2732,28 @@
 			)
 		)
 	)
+	(global_label "Row 0"
+		(shape input)
+		(at 45.72 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "76550277-e183-4b6c-84ea-8f1dfd604225")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.8082 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Column 2"
 		(shape input)
 		(at 115.57 74.93 90)
@@ -2458,24 +2776,24 @@
 			)
 		)
 	)
-	(global_label "Column 3"
+	(global_label "Row 4"
 		(shape input)
-		(at 43.18 93.98 180)
+		(at 76.2 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "9f14092e-4010-4bbd-9eca-06c83ea452b5")
+		(uuid "93d02734-85ab-46ba-803e-4f173be20df0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.9422 93.98 0)
+			(at 85.1118 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2502,9 +2820,9 @@
 			)
 		)
 	)
-	(global_label "Column 0"
+	(global_label "Column 3"
 		(shape input)
-		(at 43.18 86.36 180)
+		(at 45.72 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2512,9 +2830,31 @@
 			)
 			(justify right)
 		)
-		(uuid "a99eb99a-f7fc-4e51-97aa-a860be732763")
+		(uuid "a51d7a33-271b-4c4e-979f-f219ef0ccfac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.9422 86.36 0)
+			(at 33.4822 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Column 0"
+		(shape input)
+		(at 45.72 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aecabcc4-ec2e-4ba9-8a2d-63a2050177cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4822 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2586,6 +2926,72 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Row 1"
+		(shape input)
+		(at 45.72 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd6f0899-532d-4b84-acd0-b22a683e7d4f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 36.8082 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Column 2"
+		(shape input)
+		(at 45.72 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d4053eac-80b2-499a-a3c3-43d6843cfcc2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4822 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Column 1"
+		(shape input)
+		(at 45.72 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e04e9890-fced-4d10-83f8-2d2703b7075a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 33.4822 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -3743,6 +4149,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:RotaryEncoder_Switch_MP")
+		(at 57.15 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5191b49f-9e80-477c-8dd5-46a08c1cc187")
+		(property "Reference" "SW1"
+			(at 57.15 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RotaryEncoder_Switch_MP"
+			(at 57.15 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 53.34 50.546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 57.15 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch and MP Pin"
+			(at 57.15 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "A"
+			(uuid "f0d273e9-b323-4349-b74b-1ed146f51bdb")
+		)
+		(pin "C"
+			(uuid "1bf1e17a-3cf7-4a90-8e56-52984b2f2425")
+		)
+		(pin "MP"
+			(uuid "3f178788-9b8c-4c4b-a5b3-7e0fe7793ed9")
+		)
+		(pin "S1"
+			(uuid "56ad8777-91be-4573-a91c-e8e8c0b15f4a")
+		)
+		(pin "S2"
+			(uuid "67fba5f7-547b-492c-99de-455b4cd3e885")
+		)
+		(pin "B"
+			(uuid "6357d3a2-1f68-4261-ba80-584f12660240")
+		)
+		(instances
+			(project ""
+				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 113.03 115.57 0)
 		(unit 1)
@@ -4826,6 +5312,140 @@
 		)
 	)
 	(symbol
+		(lib_id "ScottoKeebs:MCU_Arduino_Pro_Micro")
+		(at 60.96 104.14 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc2b0c5a-2af3-42ba-8fd4-33a4c0bb9f7b")
+		(property "Reference" "U2"
+			(at 60.96 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "Arduino_Pro_Micro"
+			(at 60.96 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
+			(at 60.96 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 87.63 167.64 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "e5f35315-6828-4fd4-bd89-335d2356dba9")
+		)
+		(pin "5"
+			(uuid "f21e51fe-7f21-43c8-aac0-4848a35a5e6d")
+		)
+		(pin "6"
+			(uuid "6f8080ec-3ec8-4d9a-a519-85858bc23fc8")
+		)
+		(pin "9"
+			(uuid "65bed30d-6078-44c9-a0bf-08eac0bbab50")
+		)
+		(pin "13"
+			(uuid "56d3fffa-67a8-4fa1-8ea6-a01ebe6fd3e4")
+		)
+		(pin "2"
+			(uuid "88cb62a1-5514-4ddf-bc20-a6d7a6d2933e")
+		)
+		(pin "8"
+			(uuid "502f348f-3529-4ae7-825e-6082b2d7b243")
+		)
+		(pin "20"
+			(uuid "4bb34a5f-3a5c-428d-9b4d-b71132b1e2e8")
+		)
+		(pin "16"
+			(uuid "b62bae9f-d588-47c0-9929-d1737b5a73f9")
+		)
+		(pin "3"
+			(uuid "b1003e4a-bcce-417f-aaa2-ec8b3cdf0f0a")
+		)
+		(pin "23"
+			(uuid "a82e860d-e935-4951-842a-ccf0185ea6e0")
+		)
+		(pin "21"
+			(uuid "89cecf9d-dc0f-4215-8beb-83df7f006def")
+		)
+		(pin "11"
+			(uuid "31b0c6f8-45bb-4e95-9d33-915444929ec5")
+		)
+		(pin "12"
+			(uuid "357ef68f-2800-41bd-9dae-f3e1c72f9f0a")
+		)
+		(pin "22"
+			(uuid "3b37796d-718a-4f5d-8cb5-cb0257e378a7")
+		)
+		(pin "1"
+			(uuid "1924374a-d86c-4095-9d19-809031822581")
+		)
+		(pin "4"
+			(uuid "2ee9cee0-ef7d-44c3-b9d1-c443d060d242")
+		)
+		(pin "7"
+			(uuid "c5fa2fd3-944d-4d40-b770-b4f8495ab0b0")
+		)
+		(pin "18"
+			(uuid "fd5fff4a-9595-4491-905d-90a0b7381d22")
+		)
+		(pin "17"
+			(uuid "78b61cd3-eb3a-4ab7-a59e-7e62fc712f0b")
+		)
+		(pin "24"
+			(uuid "0124981f-1e9b-4c35-8d9c-07ebb2291a8e")
+		)
+		(pin "19"
+			(uuid "ac4e7aed-abc4-45c1-b6df-1b6c18675642")
+		)
+		(pin "15"
+			(uuid "e65137c9-3922-4933-acca-163cad12fc6c")
+		)
+		(pin "14"
+			(uuid "e575dad1-e924-4ab0-bb50-78303f5dd4eb")
+		)
+		(instances
+			(project ""
+				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ScottoKeebs:Placeholder_Diode")
 		(at 120.65 91.44 0)
 		(unit 1)
@@ -5250,140 +5870,6 @@
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
 					(reference "S18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ScottoKeebs:MCU_Arduino_Pro_Micro")
-		(at 58.42 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efd55d6e-169d-4ffa-b302-c5c262c8d1c2")
-		(property "Reference" "U1"
-			(at 58.42 68.58 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "Arduino_Pro_Micro"
-			(at 58.42 71.12 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "ScottoKeebs_MCU:Arduino_Pro_Micro"
-			(at 58.42 113.03 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 153.67 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 58.42 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "18"
-			(uuid "368ebde1-ea34-4c76-9eb1-6c0e0f63d828")
-		)
-		(pin "2"
-			(uuid "44d8396f-eb72-4f5d-8ff7-2b7c34a7d437")
-		)
-		(pin "10"
-			(uuid "20477af4-4e4e-42c1-ab62-0e446c3ff13f")
-		)
-		(pin "20"
-			(uuid "42433c82-a678-4b84-914c-b7b1be100a2a")
-		)
-		(pin "17"
-			(uuid "438762d2-dc89-4e67-a801-dda836487936")
-		)
-		(pin "9"
-			(uuid "fa88cb44-82e0-44eb-a77b-cd403bbafe5f")
-		)
-		(pin "16"
-			(uuid "c2631b28-6d1a-418c-949d-0d1e117185e4")
-		)
-		(pin "14"
-			(uuid "049a21d0-686f-48ee-95b6-7b0e1d56b9cc")
-		)
-		(pin "6"
-			(uuid "5cfb8970-29f3-4baf-8993-82c35f7058f3")
-		)
-		(pin "24"
-			(uuid "868a931c-96a3-4472-9f4b-fccf2c85148b")
-		)
-		(pin "21"
-			(uuid "a55b2e05-86a9-422c-913c-33e6fdabbe4d")
-		)
-		(pin "1"
-			(uuid "4efc5c2d-d269-414e-8422-48c3756cfcc8")
-		)
-		(pin "7"
-			(uuid "e3559b38-1326-4d35-ba92-1b8cc4330a43")
-		)
-		(pin "19"
-			(uuid "f24a45f2-7767-4fa5-8b6f-bd129bb59554")
-		)
-		(pin "15"
-			(uuid "013e43a0-2eab-49d9-8a66-1187a7677d57")
-		)
-		(pin "5"
-			(uuid "2bb382d4-0b95-4b17-904f-7304d342792e")
-		)
-		(pin "8"
-			(uuid "a03ab96b-4056-4695-8e26-37458ad1c1ec")
-		)
-		(pin "12"
-			(uuid "785de6a4-acc8-4a8d-a57c-40a4d921a75f")
-		)
-		(pin "3"
-			(uuid "3e3ebc9d-4e87-4ac0-8510-f4abdc4bad1a")
-		)
-		(pin "23"
-			(uuid "13ff0873-d362-4034-bfd6-50197ff21938")
-		)
-		(pin "4"
-			(uuid "9f5a83de-7084-445d-9dc2-5b8c0a3f5495")
-		)
-		(pin "11"
-			(uuid "15c90484-761e-4f3c-98d9-4363b58dad78")
-		)
-		(pin "22"
-			(uuid "26e09d06-f9f7-4e4f-a45d-f7d6fc1fb8cf")
-		)
-		(pin "13"
-			(uuid "71528673-569f-44fb-a238-c37fc9b6af74")
-		)
-		(instances
-			(project ""
-				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "U1")
 					(unit 1)
 				)
 			)

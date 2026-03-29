@@ -1178,6 +1178,12 @@
 		(uuid "46804c88-92ba-4c8b-b922-cfefbaefdda2")
 	)
 	(junction
+		(at 82.55 171.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "480cd4c9-3154-418d-af38-b33a59ba07c4")
+	)
+	(junction
 		(at 105.41 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1439,16 +1445,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 168.91) (xy 69.85 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c0952e-bd4d-4799-914c-9ea92de47932")
-	)
-	(wire
-		(pts
 			(xy 128.27 88.9) (xy 128.27 93.98)
 		)
 		(stroke
@@ -1489,16 +1485,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 149.86) (xy 83.82 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0d2cc0a6-7286-4f28-9890-a1302679b0b3")
-	)
-	(wire
-		(pts
 			(xy 130.81 130.81) (xy 128.27 130.81)
 		)
 		(stroke
@@ -1509,6 +1495,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 148.59) (xy 88.9 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f3f1ab1-e5eb-4ee8-9086-6e0cc4317ba7")
+	)
+	(wire
+		(pts
 			(xy 115.57 83.82) (xy 120.65 83.82)
 		)
 		(stroke
@@ -1516,16 +1512,6 @@
 			(type default)
 		)
 		(uuid "10f60420-c231-43de-8657-d6edd7ca7509")
-	)
-	(wire
-		(pts
-			(xy 83.82 83.82) (xy 83.82 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12b52d8d-23ec-441e-9438-f83217a9830f")
 	)
 	(wire
 		(pts
@@ -1549,6 +1535,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 171.45) (xy 87.63 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17dad9e7-cf2d-4740-9299-abd9ddea6a2a")
+	)
+	(wire
+		(pts
 			(xy 120.65 125.73) (xy 120.65 130.81)
 		)
 		(stroke
@@ -1566,6 +1562,16 @@
 			(type default)
 		)
 		(uuid "1dd39b21-3853-45bc-982f-e1aee79d0b92")
+	)
+	(wire
+		(pts
+			(xy 102.87 173.99) (xy 102.87 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9e0fe1-f6f1-405f-afb5-f78cb12ccc4f")
 	)
 	(wire
 		(pts
@@ -1609,6 +1615,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 163.83) (xy 82.55 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34c50bf7-c954-4b08-a8e9-5ffdf092dec7")
+	)
+	(wire
+		(pts
 			(xy 123.19 133.35) (xy 128.27 133.35)
 		)
 		(stroke
@@ -1616,16 +1632,6 @@
 			(type default)
 		)
 		(uuid "34e9c4af-7aa4-486c-a4a9-c41dd2dd2398")
-	)
-	(wire
-		(pts
-			(xy 87.63 171.45) (xy 69.85 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3568f250-8a96-4fcc-a458-f54466101c47")
 	)
 	(wire
 		(pts
@@ -1899,6 +1905,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 148.59) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72135499-21ad-41b1-96d2-bc021f3fcd49")
+	)
+	(wire
+		(pts
 			(xy 113.03 83.82) (xy 113.03 88.9)
 		)
 		(stroke
@@ -1979,16 +1995,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 173.99) (xy 69.85 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8c2b79b5-6fac-4f87-879b-2331ec991204")
-	)
-	(wire
-		(pts
 			(xy 120.65 113.03) (xy 120.65 118.11)
 		)
 		(stroke
@@ -2049,13 +2055,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 83.82) (xy 100.33 83.82)
+			(xy 82.55 184.15) (xy 82.55 171.45)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "98e9b8b4-6fa1-4088-b5a0-6c88ab470121")
+		(uuid "9672178a-b69a-49d5-a04c-ce8c70c91436")
 	)
 	(wire
 		(pts
@@ -2146,6 +2152,16 @@
 			(type default)
 		)
 		(uuid "a573fb54-98d2-47d5-ad3f-3b269eb0610b")
+	)
+	(wire
+		(pts
+			(xy 82.55 163.83) (xy 82.55 171.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a74a78e2-7b41-457d-938e-3b8e9c33bc4f")
 	)
 	(wire
 		(pts
@@ -2429,13 +2445,33 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 149.86) (xy 102.87 168.91)
+			(xy 102.87 168.91) (xy 102.87 148.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e85902ac-f96a-452b-a84a-96e1703c6887")
+		(uuid "eb0f64d0-5feb-43dd-9378-39872ddd67d7")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 100.33 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed7ade9a-7596-42e0-a747-5855ab14a17b")
+	)
+	(wire
+		(pts
+			(xy 102.87 184.15) (xy 82.55 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edf77551-0abb-4f87-8134-8c3b88e969cd")
 	)
 	(wire
 		(pts
@@ -2619,6 +2655,28 @@
 			)
 		)
 	)
+	(global_label "R0"
+		(shape input)
+		(at 69.85 173.99 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1dc2afed-64ee-4a01-9601-1ae02254b203")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3147 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Column 3"
 		(shape input)
 		(at 29.21 168.91 180)
@@ -2681,6 +2739,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 87.63 173.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "58f1b99d-3c16-4fac-a5a3-2f827024ebd1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1653 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2839,6 +2919,28 @@
 			)
 		)
 	)
+	(global_label "R0"
+		(shape input)
+		(at 87.63 168.91 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cfd88c7d-bca0-46b4-af53-477bf7730cfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.1653 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Column 2"
 		(shape input)
 		(at 29.21 166.37 180)
@@ -2879,6 +2981,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "R1"
+		(shape input)
+		(at 69.85 176.53 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ff16a54d-d6c9-427e-b7f8-78685df37e25")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 75.3147 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3143,7 +3267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1822b287-a57b-4bcb-9b30-27012dd8faec")
-		(property "Reference" "S20"
+		(property "Reference" "S19"
 			(at 125.73 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3198,7 +3322,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S20")
+					(reference "S19")
 					(unit 1)
 				)
 			)
@@ -3214,7 +3338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "190b9ce8-734a-4919-ad29-aadc0a9c1c1e")
-		(property "Reference" "S15"
+		(property "Reference" "S18"
 			(at 118.11 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3269,7 +3393,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S15")
+					(reference "S18")
 					(unit 1)
 				)
 			)
@@ -3358,7 +3482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eb70512-40f0-4688-9f6d-bc5c55a02104")
-		(property "Reference" "S8"
+		(property "Reference" "S9"
 			(at 110.49 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3413,7 +3537,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S8")
+					(reference "S9")
 					(unit 1)
 				)
 			)
@@ -3501,7 +3625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "232b0c46-9787-44ef-95cf-9a18a515e63a")
-		(property "Reference" "S3"
+		(property "Reference" "S2"
 			(at 118.11 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3556,7 +3680,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S3")
+					(reference "S2")
 					(unit 1)
 				)
 			)
@@ -3645,7 +3769,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c88c77b-ee54-4fab-8219-5a87173d8707")
-		(property "Reference" "S10"
+		(property "Reference" "S12"
 			(at 102.87 123.19 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3700,7 +3824,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S10")
+					(reference "S12")
 					(unit 1)
 				)
 			)
@@ -3933,7 +4057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43859f6e-4ddb-4db9-b881-c3127daa6336")
-		(property "Reference" "S19"
+		(property "Reference" "S15"
 			(at 125.73 123.19 0)
 			(do_not_autoplace yes)
 			(effects
@@ -3988,7 +4112,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S19")
+					(reference "S15")
 					(unit 1)
 				)
 			)
@@ -4374,7 +4498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b2fa0b7-d14f-484d-9980-e85e881d40c8")
-		(property "Reference" "S9"
+		(property "Reference" "S10"
 			(at 118.11 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4429,7 +4553,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S9")
+					(reference "S10")
 					(unit 1)
 				)
 			)
@@ -4445,7 +4569,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "73d3d8ff-88c9-48f1-8f15-1c83146cf547")
-		(property "Reference" "S17"
+		(property "Reference" "S7"
 			(at 125.73 99.06 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4500,7 +4624,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S17")
+					(reference "S7")
 					(unit 1)
 				)
 			)
@@ -4516,7 +4640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7938c065-d8d3-466a-9377-d619ad6cadcc")
-		(property "Reference" "S2"
+		(property "Reference" "S1"
 			(at 110.49 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4571,7 +4695,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S2")
+					(reference "S1")
 					(unit 1)
 				)
 			)
@@ -4660,7 +4784,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6946b6-a67b-4386-9dd7-4a61696e296a")
-		(property "Reference" "S16"
+		(property "Reference" "S3"
 			(at 125.73 86.36 0)
 			(do_not_autoplace yes)
 			(effects
@@ -4715,7 +4839,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S16")
+					(reference "S3")
 					(unit 1)
 				)
 			)
@@ -5095,7 +5219,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c816d90f-f390-437e-b927-b14586aed938")
-		(property "Reference" "S11"
+		(property "Reference" "S13"
 			(at 110.49 123.19 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5150,7 +5274,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S11")
+					(reference "S13")
 					(unit 1)
 				)
 			)
@@ -5312,7 +5436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d781078c-0e43-4331-9b35-aa2eeaeeb9f5")
-		(property "Reference" "S13"
+		(property "Reference" "S16"
 			(at 102.87 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5367,7 +5491,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S13")
+					(reference "S16")
 					(unit 1)
 				)
 			)
@@ -5383,7 +5507,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d88f39cf-6839-4bbf-ba75-3b8dc1e376c0")
-		(property "Reference" "S12"
+		(property "Reference" "S14"
 			(at 118.11 123.19 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5438,7 +5562,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S12")
+					(reference "S14")
 					(unit 1)
 				)
 			)
@@ -5454,7 +5578,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dd1c9ff1-e52d-411a-beb2-fe2846f66efc")
-		(property "Reference" "S14"
+		(property "Reference" "S17"
 			(at 110.49 135.89 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5509,7 +5633,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S14")
+					(reference "S17")
 					(unit 1)
 				)
 			)
@@ -5598,7 +5722,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaea1e5b-7b99-4e4e-931d-3f489f0a777d")
-		(property "Reference" "S18"
+		(property "Reference" "S11"
 			(at 125.73 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5653,7 +5777,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S18")
+					(reference "S11")
 					(unit 1)
 				)
 			)
@@ -5740,7 +5864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feeb7487-efbe-4967-ac65-d0209106a01a")
-		(property "Reference" "S7"
+		(property "Reference" "S8"
 			(at 102.87 110.49 0)
 			(do_not_autoplace yes)
 			(effects
@@ -5795,7 +5919,7 @@
 		(instances
 			(project "Tech_Keyboard"
 				(path "/2037aab1-b447-4dbe-8882-7bcff54734c8"
-					(reference "S7")
+					(reference "S8")
 					(unit 1)
 				)
 			)
